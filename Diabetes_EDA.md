@@ -1,4 +1,4 @@
-Exploratory Data Analysis using R
+[Part1]Exploratory Data Analysis using R
 ================
 Wachira
 9/17/2021
