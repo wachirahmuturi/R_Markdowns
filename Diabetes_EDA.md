@@ -137,7 +137,7 @@ summary(df)
 
 ### Boxplots
 
-![](Diabetes_EDA_files/figure-gfm/boxplot-1.png)<!-- -->![](Diabetes_EDA_files/figure-gfm/boxplot-2.png)<!-- -->
+![](/boxplot-1.png)<!-- -->![](/boxplot-2.png)<!-- -->
 
 `Discussion`: For the boxplot of BMI against Outcome, we see the
 distribution of BMI being higher in diabetics as compared to that of
@@ -159,7 +159,7 @@ plt3
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Diabetes_EDA_files/figure-gfm/scatterplot-1.png)<!-- -->
+![](/scatterplot-1.png)<!-- -->
 
 ``` r
 plt4 <- ggplot(df, aes(x=Age, y=BMI, col=Outcome)) + geom_point() + geom_smooth(method = 'loess')
@@ -169,7 +169,7 @@ plt4
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Diabetes_EDA_files/figure-gfm/scatterplot-2.png)<!-- -->
+![](/scatterplot-2.png)<!-- -->
 
 `Discussion`: Looking at the scatterplot of Glucose against Age, it is
 evident that diabetic persons have higher glucose levels(as seen by the
